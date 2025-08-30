@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{ float x;
+  printf ("enter a temprature in celcius:");
+  scanf("%f",&x);
+  printf("temprature in fahreinheit: %f\n",x*9/5+32);
+  
+  return 0;
+}  

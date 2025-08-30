@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{ float I,p,r,n;
+  printf ("enter a value of p:");
+  scanf("%f",&p);
+  printf ("enter a interest rate:");
+  scanf("%f",&r);
+  printf ("enter a value of year:");
+  scanf("%f",&n);
+  printf("interest is: %f",p*r*n/100);
+  return 0;
+}  

@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{ float l;
+  printf ("enter a lenth of square:");
+  scanf("%f",&l);
+  printf ("area of square is:%f\n",l*l);
+  printf ("parameter of square is:%f",4*l);
+  return 0;
+}  

@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{ float x,y;
+  printf ("enter a lenth of rectangle:");
+  scanf("%f",&x);
+  printf ("enter a width of rectangle:");
+  scanf("%f",&y);
+  printf ("area of rectangle:%f\n",x*y);
+  printf ("parameter of rectangle:%f",2*(x+y));
+  return 0;
+}  
