@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{ float x;
+  printf ("enter a rupees:");
+  scanf("%f",&x);//1pound=118Rs
+  printf("pound : %f",x/118);
+  return 0;
+}  
