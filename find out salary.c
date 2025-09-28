@@ -15,7 +15,7 @@ int main() {
         deduction = gross * 0.02;   // 2%
     }
     else {
-        allowance = 0;   // अगर 5000 या उससे कम है
+        allowance = 0;   
         deduction = 0;
     }
 
